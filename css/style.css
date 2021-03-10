@@ -15,14 +15,14 @@ li {
     list-style-type: none;
 }
 
-li:nth-last-child(odd) {
+.news:nth-child(2n+1) {
+    margin: 0 auto 32px;
     background-color: blue;
     width: 800px;
-    margin: 0 auto 32px;
     padding: 6px 15px;
 }
 
-li:nth-last-child(even) {
+.news:nth-child(2n) {
     background-color: yellow;
     width: 800px;
     margin: 0 auto 32px;
@@ -37,11 +37,6 @@ h1 {
     color: rgb(56, 61, 78);
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
-}
-
-.news {
-    background-color: #fff;
-    margin: 0 auto 32px;
 }
 
 article {
